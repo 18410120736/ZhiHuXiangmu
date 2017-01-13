@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ch.zhihuxiangmu.MainActivity">
+    <ImageView
+        android:id="@+id/yindao_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/splash_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="穿越茫茫人海\n寻找属于我们的那一份宁静"
+        android:textColor="@color/white_70"
+        android:textSize="45px"
+        android:gravity="center"
+        android:layout_marginBottom="80px"
+        android:layout_gravity="bottom"
+        />
+</FrameLayout>
